@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using ClassLibrary1;
 
 namespace ConsoleApplication1
 {
@@ -10,8 +7,8 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            // Initialize
+            System.Console.WriteLine(Class1.Sum(5, 4));
+            Console.WriteLine(Class1.Sub(5, 4));
         }
     }
 }
-https://github.com/dungxpt96/DemoProject.git
